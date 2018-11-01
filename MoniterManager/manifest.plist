@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/ZhangQzhe/TLNetGrid/master/TLNetGrid.ipa</string>
+					<string>https://raw.githubusercontent.com/ZhangQzhe/TLNetGrid/master/MoniterManager/MoniterManager.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/ZhangQzhe/TLNetGrid/master/app-icon%40512.png</string>
+					<string>https://raw.githubusercontent.com/ZhangQzhe/TLNetGrid/master/MoniterManager/app-icon%40512.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,21 +27,21 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/ZhangQzhe/TLNetGrid/master/app-icon%4057.png</string>
+					<string>https://raw.githubusercontent.com/ZhangQzhe/TLNetGrid/master/MoniterManager/app-icon%4057.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.bonc.ZHWG.Mobile.TL</string>
+				<string>com.bonc.ZHSYJ.Mobile.TL</string>
 				<key>bundle-version</key>
-				<string>1.2.2</string>
+				<string>1.0.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string></string>
 				<key>title</key>
-				<string>通辽智慧网格</string>
+				<string>视频监控平台</string>
 			</dict>
 		</dict>
 	</array>
