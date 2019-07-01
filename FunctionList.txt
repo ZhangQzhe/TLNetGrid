@@ -1,0 +1,228 @@
+{
+    "appVersion_Android" = "1.0.2";
+    "appVersion_iOS" = "1.0.2";
+    defaultFunctions =     (
+                {
+            action = 8;
+            identifier = xunjianrenwu;
+            "image_l" = "bidulogo_l.png";
+            "image_s" = "home_btn_inspection";
+            name = "\U5de1\U68c0\U4efb\U52a1";
+            quanXian = 1;
+            source = NGPatrolTaskViewController;
+        },
+                {
+            action = 2;
+            identifier = shijianguanli;
+            "image_l" = "home1_btn_eventmanagement";
+            "image_s" = "home_btn_eventmanagement";
+            name = "\U4e8b\U4ef6\U7ba1\U7406";
+            quanXian = 0;
+            source = EventProcessViewController;
+        },
+                {
+            action = 10086;
+            identifier = baidusousuo;
+            "image_l" = "bidulogo_l.png";
+            "image_s" = "bd_logo1";
+            name = "\U767e\U5ea6\U641c\U7d22";
+            quanXian = 0;
+            source = "http://www.baidu.com";
+        }
+    );
+    filebuild = 2019070101;
+    functions =     (
+                {
+            fList =             (
+                                {
+                    action = 10086;
+                    identifier = baidusousuo;
+                    "image_l" = "bidulogo_l.png";
+                    "image_s" = "bd_logo1";
+                    name = "\U767e\U5ea6\U641c\U7d22";
+                    quanXian = 0;
+                    source = "http://www.baidu.com";
+                },
+                                {
+                    action = 2;
+                    identifier = shijianguanli;
+                    "image_l" = "home1_btn_eventmanagement";
+                    "image_s" = "home_btn_eventmanagement";
+                    name = "\U4e8b\U4ef6\U7ba1\U7406";
+                    quanXian = 0;
+                    source = EventProcessViewController;
+                },
+                                {
+                    action = 8;
+                    identifier = xunjianrenwu;
+                    "image_l" = "bidulogo_l.png";
+                    "image_s" = "home_btn_inspection";
+                    name = "\U5de1\U68c0\U4efb\U52a1";
+                    quanXian = 1;
+                    source = NGPatrolTaskViewController;
+                },
+                                {
+                    action = 5;
+                    identifier = zhishidianji;
+                    "image_l" = "home1_btn_literature";
+                    "image_s" = "home_btn_literiture";
+                    name = "\U77e5\U8bc6\U5178\U7c4d";
+                    quanXian = 0;
+                    source = LiteratureViewController;
+                },
+                                {
+                    action = 4;
+                    identifier = jichushuju;
+                    "image_l" = "home1_btn_data";
+                    "image_s" = "home_btn_basicdata";
+                    name = "\U57fa\U7840\U6570\U636e";
+                    quanXian = 0;
+                    source = BasicDataViewController;
+                },
+                                {
+                    action = 20000;
+                    identifier = liaotian;
+                    "image_l" = "timg-2.jpeg";
+                    "image_s" = "message_shortmessage";
+                    name = "\U804a\U5929";
+                    quanXian = 0;
+                    source = ConversationController;
+                },
+                                {
+                    action = 200000;
+                    identifier = shipinjiankong;
+                    "image_l" = monitor;
+                    "image_s" = monitor;
+                    name = "\U89c6\U9891\U76d1\U63a7";
+                    quanXian = 2;
+                    source = NGMonitorViewController;
+                },
+                                {
+                    action = 200000;
+                    identifier = xiaoxi;
+                    "image_l" = "home_btn_note";
+                    "image_s" = "home_btn_note";
+                    name = "\U6d88\U606f";
+                    quanXian = 2;
+                    source = MainMessageViewController;
+                },
+                                {
+                    action = 200000;
+                    identifier = gongzuoquan;
+                    "image_l" = "work.png";
+                    "image_s" = "home_btn_workposts";
+                    name = "\U5de5\U4f5c\U5708";
+                    quanXian = 0;
+                    source = NGWorkRecordListViewController;
+                },
+                                {
+                    action = 11;
+                    identifier = shipinhuiyi;
+                    "image_l" = "home_video_RTRC";
+                    "image_s" = "home_video_RTRC";
+                    name = "\U89c6\U9891\U4f1a\U8bae";
+                    quanXian = 0;
+                    source = NGTRTCRootViewController;
+                }
+            );
+            name = "\U57fa\U7840\U529f\U80fd";
+            quanXian = 0;
+        },
+                {
+            fList =             (
+                                {
+                    action = 10086;
+                    identifier = baidusousuo;
+                    "image_l" = "bidulogo_l.png";
+                    "image_s" = "bd_logo1";
+                    name = "\U767e\U5ea6\U641c\U7d22";
+                    quanXian = 0;
+                    source = "http://www.baidu.com";
+                },
+                                {
+                    action = 2;
+                    identifier = shijianguanli;
+                    "image_l" = "home1_btn_eventmanagement";
+                    "image_s" = "home_btn_eventmanagement";
+                    name = "\U4e8b\U4ef6\U7ba1\U7406";
+                    quanXian = 0;
+                    source = EventProcessViewController;
+                },
+                                {
+                    action = 8;
+                    identifier = xunjianrenwu;
+                    "image_l" = "bidulogo_l.png";
+                    "image_s" = "home_btn_inspection";
+                    name = "\U5de1\U68c0\U4efb\U52a1";
+                    quanXian = 1;
+                    source = NGPatrolTaskViewController;
+                },
+                                {
+                    action = 5;
+                    identifier = zhishidianji;
+                    "image_l" = "home1_btn_literature";
+                    "image_s" = "home_btn_literiture";
+                    name = "\U77e5\U8bc6\U5178\U7c4d";
+                    quanXian = 0;
+                    source = LiteratureViewController;
+                },
+                                {
+                    action = 4;
+                    identifier = jichushuju;
+                    "image_l" = "home1_btn_data";
+                    "image_s" = "home_btn_basicdata";
+                    name = "\U57fa\U7840\U6570\U636e";
+                    quanXian = 0;
+                    source = BasicDataViewController;
+                },
+                                {
+                    action = 20000;
+                    identifier = liaotian;
+                    "image_l" = "timg-2.jpeg";
+                    "image_s" = "message_shortmessage";
+                    name = "\U804a\U5929";
+                    quanXian = 0;
+                    source = ConversationController;
+                },
+                                {
+                    action = 200000;
+                    identifier = shipinjiankong;
+                    "image_l" = monitor;
+                    "image_s" = monitor;
+                    name = "\U89c6\U9891\U76d1\U63a7";
+                    quanXian = 2;
+                    source = NGMonitorViewController;
+                },
+                                {
+                    action = 200000;
+                    identifier = xiaoxi;
+                    "image_l" = "home_btn_note";
+                    "image_s" = "home_btn_note";
+                    name = "\U6d88\U606f";
+                    quanXian = 2;
+                    source = MainMessageViewController;
+                },
+                                {
+                    action = 200000;
+                    identifier = gongzuoquan;
+                    "image_l" = "work.png";
+                    "image_s" = "home_btn_workposts";
+                    name = "\U5de5\U4f5c\U5708";
+                    quanXian = 0;
+                    source = NGWorkRecordListViewController;
+                },
+                                {
+                    action = 11;
+                    identifier = shipinhuiyi;
+                    "image_l" = "home_video_RTRC";
+                    "image_s" = "home_video_RTRC";
+                    name = "\U89c6\U9891\U4f1a\U8bae";
+                    quanXian = 0;
+                    source = NGTRTCRootViewController;
+                }
+            );
+            name = "\U9644\U52a0\U529f\U80fd";
+            quanXian = 0;
+        }
+    );
+}
