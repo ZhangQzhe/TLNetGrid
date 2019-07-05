@@ -4,223 +4,271 @@
     defaultFunctions =     (
                 {
             action = 8;
+            enable = 1;
             identifier = xunjianrenwu;
             "image_l" = "bidulogo_l.png";
             "image_s" = "home_btn_inspection";
             name = "\U5de1\U68c0\U4efb\U52a1";
             quanXian = 1;
-            source = NGPatrolTaskViewController;
+            "source_Android" = NGPatrolTaskViewController;
+            "source_iOS" = NGPatrolTaskViewController;
         },
                 {
             action = 2;
+            enable = 1;
             identifier = shijianguanli;
             "image_l" = "home1_btn_eventmanagement";
             "image_s" = "home_btn_eventmanagement";
             name = "\U4e8b\U4ef6\U7ba1\U7406";
             quanXian = 0;
-            source = EventProcessViewController;
+            "source_Android" = EventProcessViewController;
+            "source_iOS" = EventProcessViewController;
         },
                 {
             action = 10086;
+            enable = 1;
             identifier = baidusousuo;
             "image_l" = "bidulogo_l.png";
             "image_s" = "bd_logo1";
             name = "\U767e\U5ea6\U641c\U7d22";
             quanXian = 0;
-            source = "http://www.baidu.com";
+            "source_Android" = "http://www.baidu.com";
+            "source_iOS" = "http://www.baidu.com";
         }
     );
-    filebuild = 2019070101;
+    filebuild = 2019070504;
     functions =     (
                 {
             fList =             (
                                 {
                     action = 10086;
+                    enable = 0;
                     identifier = baidusousuo;
                     "image_l" = "bidulogo_l.png";
                     "image_s" = "bd_logo1";
                     name = "\U767e\U5ea6\U641c\U7d22";
                     quanXian = 0;
-                    source = "http://www.baidu.com";
+                    "source_Android" = "http://www.baidu.com";
+                    "source_iOS" = "http://www.baidu.com";
                 },
                                 {
                     action = 2;
+                    enable = 1;
                     identifier = shijianguanli;
                     "image_l" = "home1_btn_eventmanagement";
                     "image_s" = "home_btn_eventmanagement";
                     name = "\U4e8b\U4ef6\U7ba1\U7406";
                     quanXian = 0;
-                    source = EventProcessViewController;
+                    "source_Android" = EventProcessViewController;
+                    "source_iOS" = EventProcessViewController;
                 },
                                 {
                     action = 8;
+                    enable = 1;
                     identifier = xunjianrenwu;
                     "image_l" = "bidulogo_l.png";
                     "image_s" = "home_btn_inspection";
                     name = "\U5de1\U68c0\U4efb\U52a1";
                     quanXian = 1;
-                    source = NGPatrolTaskViewController;
+                    "source_Android" = NGPatrolTaskViewController;
+                    "source_iOS" = NGPatrolTaskViewController;
                 },
                                 {
                     action = 5;
+                    enable = 1;
                     identifier = zhishidianji;
                     "image_l" = "home1_btn_literature";
                     "image_s" = "home_btn_literiture";
                     name = "\U77e5\U8bc6\U5178\U7c4d";
                     quanXian = 0;
-                    source = LiteratureViewController;
+                    "source_Android" = LiteratureViewController;
+                    "source_iOS" = LiteratureViewController;
                 },
                                 {
                     action = 4;
+                    enable = 1;
                     identifier = jichushuju;
                     "image_l" = "home1_btn_data";
                     "image_s" = "home_btn_basicdata";
                     name = "\U57fa\U7840\U6570\U636e";
                     quanXian = 0;
-                    source = BasicDataViewController;
+                    "source_Android" = BasicDataViewController;
+                    "source_iOS" = BasicDataViewController;
                 },
                                 {
                     action = 20000;
+                    enable = 1;
                     identifier = liaotian;
                     "image_l" = "timg-2.jpeg";
                     "image_s" = "message_shortmessage";
                     name = "\U804a\U5929";
                     quanXian = 0;
-                    source = ConversationController;
+                    "source_Android" = ConversationController;
+                    "source_iOS" = ConversationController;
                 },
                                 {
                     action = 200000;
+                    enable = 1;
                     identifier = shipinjiankong;
                     "image_l" = monitor;
                     "image_s" = monitor;
                     name = "\U89c6\U9891\U76d1\U63a7";
                     quanXian = 2;
-                    source = NGMonitorViewController;
+                    "source_Android" = NGMonitorViewController;
+                    "source_iOS" = NGMonitorViewController;
                 },
                                 {
                     action = 200000;
+                    enable = 1;
                     identifier = xiaoxi;
                     "image_l" = "home_btn_note";
                     "image_s" = "home_btn_note";
                     name = "\U6d88\U606f";
                     quanXian = 2;
-                    source = MainMessageViewController;
+                    "source_Android" = MainMessageViewController;
+                    "source_iOS" = MainMessageViewController;
                 },
                                 {
                     action = 200000;
+                    enable = 1;
                     identifier = gongzuoquan;
                     "image_l" = "work.png";
                     "image_s" = "home_btn_workposts";
                     name = "\U5de5\U4f5c\U5708";
                     quanXian = 0;
-                    source = NGWorkRecordListViewController;
+                    "source_Android" = NGWorkRecordListViewController;
+                    "source_iOS" = NGWorkRecordListViewController;
                 },
                                 {
                     action = 11;
+                    enable = 1;
                     identifier = shipinhuiyi;
                     "image_l" = "home_video_RTRC";
                     "image_s" = "home_video_RTRC";
                     name = "\U89c6\U9891\U4f1a\U8bae";
                     quanXian = 0;
-                    source = NGTRTCRootViewController;
+                    "source_Android" = NGTRTCRootViewController;
+                    "source_iOS" = NGTRTCRootViewController;
                 }
             );
             name = "\U57fa\U7840\U529f\U80fd";
+            quanXian = 0;
         },
                 {
             fList =             (
                                 {
                     action = 10086;
+                    enable = 1;
                     identifier = baidusousuo;
                     "image_l" = "bidulogo_l.png";
                     "image_s" = "bd_logo1";
                     name = "\U767e\U5ea6\U641c\U7d22";
                     quanXian = 0;
-                    source = "http://www.baidu.com";
+                    "source_Android" = "http://www.baidu.com";
+                    "source_iOS" = "http://www.baidu.com";
                 },
                                 {
                     action = 2;
+                    enable = 1;
                     identifier = shijianguanli;
                     "image_l" = "home1_btn_eventmanagement";
                     "image_s" = "home_btn_eventmanagement";
                     name = "\U4e8b\U4ef6\U7ba1\U7406";
                     quanXian = 0;
-                    source = EventProcessViewController;
+                    "source_Android" = EventProcessViewController;
+                    "source_iOS" = EventProcessViewController;
                 },
                                 {
                     action = 8;
+                    enable = 1;
                     identifier = xunjianrenwu;
                     "image_l" = "bidulogo_l.png";
                     "image_s" = "home_btn_inspection";
                     name = "\U5de1\U68c0\U4efb\U52a1";
                     quanXian = 1;
-                    source = NGPatrolTaskViewController;
+                    "source_Android" = NGPatrolTaskViewController;
+                    "source_iOS" = NGPatrolTaskViewController;
                 },
                                 {
                     action = 5;
+                    enable = 1;
                     identifier = zhishidianji;
                     "image_l" = "home1_btn_literature";
                     "image_s" = "home_btn_literiture";
                     name = "\U77e5\U8bc6\U5178\U7c4d";
                     quanXian = 0;
-                    source = LiteratureViewController;
+                    "source_Android" = LiteratureViewController;
+                    "source_iOS" = LiteratureViewController;
                 },
                                 {
                     action = 4;
+                    enable = 1;
                     identifier = jichushuju;
                     "image_l" = "home1_btn_data";
                     "image_s" = "home_btn_basicdata";
                     name = "\U57fa\U7840\U6570\U636e";
                     quanXian = 0;
-                    source = BasicDataViewController;
+                    "source_Android" = BasicDataViewController;
+                    "source_iOS" = BasicDataViewController;
                 },
                                 {
                     action = 20000;
+                    enable = 1;
                     identifier = liaotian;
                     "image_l" = "timg-2.jpeg";
                     "image_s" = "message_shortmessage";
                     name = "\U804a\U5929";
                     quanXian = 0;
-                    source = ConversationController;
+                    "source_Android" = ConversationController;
+                    "source_iOS" = ConversationController;
                 },
                                 {
                     action = 200000;
+                    enable = 1;
                     identifier = shipinjiankong;
                     "image_l" = monitor;
                     "image_s" = monitor;
                     name = "\U89c6\U9891\U76d1\U63a7";
                     quanXian = 2;
-                    source = NGMonitorViewController;
+                    "source_Android" = NGMonitorViewController;
+                    "source_iOS" = NGMonitorViewController;
                 },
                                 {
                     action = 200000;
+                    enable = 1;
                     identifier = xiaoxi;
                     "image_l" = "home_btn_note";
                     "image_s" = "home_btn_note";
                     name = "\U6d88\U606f";
                     quanXian = 2;
-                    source = MainMessageViewController;
+                    "source_Android" = MainMessageViewController;
+                    "source_iOS" = MainMessageViewController;
                 },
                                 {
                     action = 200000;
+                    enable = 1;
                     identifier = gongzuoquan;
                     "image_l" = "work.png";
                     "image_s" = "home_btn_workposts";
                     name = "\U5de5\U4f5c\U5708";
                     quanXian = 0;
-                    source = NGWorkRecordListViewController;
+                    "source_Android" = NGWorkRecordListViewController;
+                    "source_iOS" = NGWorkRecordListViewController;
                 },
                                 {
                     action = 11;
+                    enable = 1;
                     identifier = shipinhuiyi;
                     "image_l" = "home_video_RTRC";
                     "image_s" = "home_video_RTRC";
                     name = "\U89c6\U9891\U4f1a\U8bae";
                     quanXian = 0;
-                    source = NGTRTCRootViewController;
+                    "source_Android" = NGTRTCRootViewController;
+                    "source_iOS" = NGTRTCRootViewController;
                 }
             );
             name = "\U9644\U52a0\U529f\U80fd";
+            quanXian = 0;
         }
     );
 }
