@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.baidu.com/iste.ipa</string>
+					<string>https://raw.githubusercontent.com/ZhangQZhe/TLNetGrid/master/wt/TelecomSite.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://www.baidu.com/57x57.png</string>
+					<string>https://raw.githubusercontent.com/ZhangQZhe/TLNetGrid/master/wt/57x57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://www.baidu.com/512x512.png</string>
+					<string>https://raw.githubusercontent.com/ZhangQZhe/TLNetGrid/master/wt/512x512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>TelecomSite</string>
+				<string>卫星宽带</string>
 			</dict>
 		</dict>
 	</array>
